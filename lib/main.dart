@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:desafio_2/pages/home_page.dart';
+import 'package:desafio_2/pages/welcome_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const WelcomePage(),
     );
   }
 }
